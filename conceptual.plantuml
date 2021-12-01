@@ -1,0 +1,31 @@
+@startuml Gallery
+entity user {
+  * username
+  * password_hash
+}
+
+entity gallery {
+  * name
+  * description
+}
+
+entity image {
+  * id
+  * source
+  * description
+  * created_at
+}
+
+entity comment{
+  * content
+  * title
+  * created_at
+}
+
+user    --|{ gallery
+user    --|{ comment
+gallery --|{ image
+image   --|{ comment
+
+
+@enduml
