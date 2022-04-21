@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e7c30c9a-357a-45ea-acdf-ef1e6dc44f64" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/Project/.env" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/.env.example" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/bin/console" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/composer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/composer.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/config/bundles.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/config/packages/api_platform.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/config/packages/cache.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/config/packages/doctrine.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/config/packages/doctrine_migrations.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/config/packages/framework.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/config/packages/nelmio_cors.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/config/packages/routing.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/config/packages/security.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/config/packages/twig.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/config/packages/validator.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/config/preload.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/config/routes.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/config/routes/api_platform.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/config/routes/framework.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/config/services.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/docker-compose.override.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/docker-compose.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/migrations/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/public/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/src/Controller/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/src/Entity/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/src/Entity/superheroes.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/src/Kernel.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/src/Repository/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/symfony.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/symfony.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/templates/base.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/snl_project/.env" beforeDir="false" afterPath="$PROJECT_DIR$/snl_project/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/snl_project/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/snl_project/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/snl_project/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/snl_project/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/snl_project/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/snl_project/config/bundles.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/snl_project/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/snl_project/symfony.lock" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/snl_project/composer.json</pharConfigPath>
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/snl_project" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/snl_project/vendor/symfony/translation-contracts" />
+      <path value="$PROJECT_DIR$/snl_project/vendor/symfony/yaml" />
+      <path value="$PROJECT_DIR$/snl_project/vendor/symfony/service-contracts" />
+      <path value="$PROJECT_DIR$/snl_project/vendor/symfony/string" />
+      <path value="$PROJECT_DIR$/snl_project/vendor/symfony/web-link" />
+      <path value="$PROJECT_DIR$/snl_project/vendor/symfony/twig-bridge" />
+      <path value="$PROJECT_DIR$/snl_project/vendor/twig/twig" />
+      <path value="$PROJECT_DIR$/snl_project/vendor/symfony/serializer" />
+      <path value="$PROJECT_DIR$/snl_project/vendor/symfony/security-bundle" />
+      <path value="$PROJECT_DIR$/snl_project/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/snl_project/vendor/symfony/dotenv" />
+      <path value="$PROJECT_DIR$/snl_project/vendor/symfony/asset" />
+      <path value="$PROJECT_DIR$/snl_project/vendor/symfony/expression-language" />
+      <path value="$PROJECT_DIR$/snl_project/vendor/phpstan/phpdoc-parser" />
+      <path value="$PROJECT_DIR$/snl_project/vendor/api-platform/core" />
+      <path value="$PROJECT_DIR$/snl_project/vendor/friendsofphp/proxy-manager-lts" />
+      <path value="$PROJECT_DIR$/snl_project/vendor/composer" />
+      <path value="$PROJECT_DIR$/snl_project/vendor/fig/link-util" />
+      <path value="$PROJECT_DIR$/snl_project/vendor/psr/link" />
+      <path value="$PROJECT_DIR$/snl_project/vendor/psr/event-dispatcher" />
+      <path value="$PROJECT_DIR$/snl_project/vendor/psr/cache" />
+      <path value="$PROJECT_DIR$/snl_project/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/snl_project/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/snl_project/vendor/nelmio/cors-bundle" />
+      <path value="$PROJECT_DIR$/snl_project/vendor/symfony/cache-contracts" />
+      <path value="$PROJECT_DIR$/snl_project/vendor/symfony/finder" />
+      <path value="$PROJECT_DIR$/snl_project/vendor/symfony/deprecation-contracts" />
+      <path value="$PROJECT_DIR$/snl_project/vendor/symfony/runtime" />
+      <path value="$PROJECT_DIR$/snl_project/vendor/symfony/routing" />
+      <path value="$PROJECT_DIR$/snl_project/vendor/symfony/var-exporter" />
+      <path value="$PROJECT_DIR$/snl_project/vendor/symfony/security-core" />
+      <path value="$PROJECT_DIR$/snl_project/vendor/symfony/polyfill-intl-normalizer" />
+      <path value="$PROJECT_DIR$/snl_project/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/snl_project/vendor/symfony/polyfill-intl-grapheme" />
+      <path value="$PROJECT_DIR$/snl_project/vendor/doctrine/deprecations" />
+      <path value="$PROJECT_DIR$/snl_project/vendor/symfony/doctrine-bridge" />
+      <path value="$PROJECT_DIR$/snl_project/vendor/doctrine/event-manager" />
+      <path value="$PROJECT_DIR$/snl_project/vendor/symfony/cache" />
+      <path value="$PROJECT_DIR$/snl_project/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/snl_project/vendor/symfony/dependency-injection" />
+      <path value="$PROJECT_DIR$/snl_project/vendor/doctrine/dbal" />
+      <path value="$PROJECT_DIR$/snl_project/vendor/symfony/polyfill-php80" />
+      <path value="$PROJECT_DIR$/snl_project/vendor/doctrine/cache" />
+      <path value="$PROJECT_DIR$/snl_project/vendor/symfony/twig-bundle" />
+      <path value="$PROJECT_DIR$/snl_project/vendor/doctrine/orm" />
+      <path value="$PROJECT_DIR$/snl_project/vendor/symfony/config" />
+      <path value="$PROJECT_DIR$/snl_project/vendor/doctrine/sql-formatter" />
+      <path value="$PROJECT_DIR$/snl_project/vendor/symfony/security-http" />
+      <path value="$PROJECT_DIR$/snl_project/vendor/doctrine/doctrine-bundle" />
+      <path value="$PROJECT_DIR$/snl_project/vendor/phpdocumentor/reflection-docblock" />
+      <path value="$PROJECT_DIR$/snl_project/vendor/symfony/proxy-manager-bridge" />
+      <path value="$PROJECT_DIR$/snl_project/vendor/doctrine/collections" />
+      <path value="$PROJECT_DIR$/snl_project/vendor/phpdocumentor/type-resolver" />
+      <path value="$PROJECT_DIR$/snl_project/vendor/laminas/laminas-eventmanager" />
+      <path value="$PROJECT_DIR$/snl_project/vendor/symfony/property-info" />
+      <path value="$PROJECT_DIR$/snl_project/vendor/doctrine/persistence" />
+      <path value="$PROJECT_DIR$/snl_project/vendor/phpdocumentor/reflection-common" />
+      <path value="$PROJECT_DIR$/snl_project/vendor/laminas/laminas-zendframework-bridge" />
+      <path value="$PROJECT_DIR$/snl_project/vendor/symfony/property-access" />
+      <path value="$PROJECT_DIR$/snl_project/vendor/doctrine/annotations" />
+      <path value="$PROJECT_DIR$/snl_project/vendor/laminas/laminas-code" />
+      <path value="$PROJECT_DIR$/snl_project/vendor/symfony/filesystem" />
+      <path value="$PROJECT_DIR$/snl_project/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/snl_project/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/snl_project/vendor/symfony/error-handler" />
+      <path value="$PROJECT_DIR$/snl_project/vendor/doctrine/migrations" />
+      <path value="$PROJECT_DIR$/snl_project/vendor/symfony/event-dispatcher-contracts" />
+      <path value="$PROJECT_DIR$/snl_project/vendor/doctrine/doctrine-migrations-bundle" />
+      <path value="$PROJECT_DIR$/snl_project/vendor/symfony/polyfill-php73" />
+      <path value="$PROJECT_DIR$/snl_project/vendor/doctrine/common" />
+      <path value="$PROJECT_DIR$/snl_project/vendor/symfony/stopwatch" />
+      <path value="$PROJECT_DIR$/snl_project/vendor/symfony/security-csrf" />
+      <path value="$PROJECT_DIR$/snl_project/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/snl_project/vendor/symfony/password-hasher" />
+      <path value="$PROJECT_DIR$/snl_project/vendor/symfony/flex" />
+      <path value="$PROJECT_DIR$/snl_project/vendor/symfony/security-guard" />
+      <path value="$PROJECT_DIR$/snl_project/vendor/symfony/event-dispatcher" />
+      <path value="$PROJECT_DIR$/snl_project/vendor/symfony/var-dumper" />
+      <path value="$PROJECT_DIR$/snl_project/vendor/symfony/http-foundation" />
+      <path value="$PROJECT_DIR$/snl_project/vendor/symfony/framework-bundle" />
+      <path value="$PROJECT_DIR$/snl_project/vendor/symfony/polyfill-php81" />
+      <path value="$PROJECT_DIR$/snl_project/vendor/symfony/http-kernel" />
+      <path value="$PROJECT_DIR$/snl_project/vendor/willdurand/negotiation" />
+      <path value="$PROJECT_DIR$/snl_project/vendor/symfony/validator" />
+    </include_path>
+  </component>
+  <component name="ProjectId" id="2874DH3FzfeW9QO3OQpaFTx6y0s" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="ComposerRunConfigurationType" factoryName="Composer Script">
+      <option name="pathToComposerJson" value="$PROJECT_DIR$/snl_project/composer.json" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e7c30c9a-357a-45ea-acdf-ef1e6dc44f64" name="Changes" comment="" />
+      <created>1650554170221</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1650554170221</updated>
+      <workItem from="1650554174075" duration="2253000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
