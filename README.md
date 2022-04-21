@@ -4,7 +4,7 @@ Projekt Galerii grupy SNL na PAI
 Baza danych SQL na MySQL
 
 ## PORADNIK DO SYMFONY
-### Aby zacząć korzystać z symfony należy przejść do katalogu SNL i włączyć xamppa
+### Aby zacząć korzystać z symfony należy przejść do katalogu Project i włączyć xamppa
 * ./symfony server:start - uruchomienie serwera
 * Strona znajduje się pod adresem  https://127.0.0.1:8000/api
 * .env został skonfigurowany na podstawie poradnika
