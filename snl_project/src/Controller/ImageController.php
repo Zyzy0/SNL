@@ -2,7 +2,7 @@
 
 namespace App\Controller;
 
-use App\Entity\Image;
+use App\Entity\image;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Doctrine\Persistence\ManagerRegistry;
 use Symfony\Component\HttpFoundation\Request;
@@ -11,15 +11,16 @@ use Symfony\Component\Routing\Annotation\Route;
 
 class ImageController extends AbstractController
 {
-    #[Route('/api/images/add', name: 'addImage')]
+    #[Route('/image/add', name: 'addImage')]
     public function getExtension(Request $request, ManagerRegistry $doctrine): Response
     {
         $entityManager = $doctrine->getManager();
 
         // IMG -> base64 => https://www.base64-image.de/
         // Odebranie zdjecia w base64
-        $img = $request->get('img');
+        $img = $request->get('source');
         $gallery_id = $request->get('gallery_id');
+        $description = $request->get('description');
 
         // Pobranie danych niezbędnych do otrzymania rozszerzenia
         // data:image/jpeg;base64 -> jpeg
@@ -38,7 +39,7 @@ class ImageController extends AbstractController
         $image = new Image();
         $image->setSource('../images/' . $file_name);
         $image->setGalleryId($gallery_id);
-        $image->setDescription('opis');
+        $image->setDescription($description);
 
         $entityManager->persist($image);
         $entityManager->flush($image);
