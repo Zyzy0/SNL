@@ -48,7 +48,7 @@ class comment
     public $content;
  
     /**
-     * @ORM\Column(length=32, unique=true)
+     * @ORM\Column(length=32)
      * @Groups({"read", "write"})
      */
     public $title;

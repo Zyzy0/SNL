@@ -30,13 +30,13 @@ class user
     private $id = null;
  
     /**
-     * @ORM\Column(length=32, unique=true)
+     * @ORM\Column(length=32)
      * @Groups({"read", "write"})
      */
     public $username;
  
     /**
-     * @ORM\Column(length=70, unique=true)
+     * @ORM\Column(length=70)
      * @Groups({"read", "write"})
      */
     public $password;

@@ -37,13 +37,13 @@ class image
     public $gallery_id;
  
     /**
-     * @ORM\Column(length=128, unique=true)
+     * @ORM\Column(length=128)
      * @Groups({"read", "write"})
      */
     public $source;
  
     /**
-     * @ORM\Column(length=128, unique=true)
+     * @ORM\Column(length=128)
      * @Groups({"read", "write"})
      */
     public $description;
