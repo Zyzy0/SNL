@@ -13,13 +13,13 @@
 /**
  * @ORM\Entity
  * @ORM\HasLifecycleCallbacks()
- * @ORM\Table(name="users")
+ * @ORM\Table(name="user")
  * @ApiResource(
  *   normalizationContext={"groups" = {"read"}},
  *   denormalizationContext={"groups" = {"write"}}
  * )
  */
-class users
+class user
 {
     /**
      * @ORM\Id()

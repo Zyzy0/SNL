@@ -8,6 +8,7 @@
  use Doctrine\Common\Collections\Collection;
  use Doctrine\ORM\Mapping as ORM;
  use Symfony\Component\Serializer\Annotation\Groups;
+
  
  
 /**
@@ -16,7 +17,7 @@
  * @ORM\Table(name="image")
  * @ApiResource(
  *   normalizationContext={"groups" = {"read"}},
- *   denormalizationContext={"groups" = {"write"}}
+ *   denormalizationContext={"groups" = {"write"}}, 
  * )
  */
 class image
