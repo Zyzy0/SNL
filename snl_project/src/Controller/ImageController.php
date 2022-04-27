@@ -18,23 +18,23 @@ class ImageController extends AbstractController
 
         // IMG -> base64 => https://www.base64-image.de/
         // Odebranie zdjecia w base64
-        $img = $request->get('source');
+        $source = $request->get('source');
         $gallery_id = $request->get('gallery_id');
         $description = $request->get('description');
 
         // Pobranie danych niezbędnych do otrzymania rozszerzenia
         // data:image/jpeg;base64 -> jpeg
-        $offset = strpos($img, '/') + 1;
-        $length = strpos($img, ';') - $offset;
-        $ext = substr($img, $offset, $length);
+        $offset = strpos($source, '/') + 1;
+        $length = strpos($source, ';') - $offset;
+        $extension = substr($source, $offset, $length);
 
         //
-        $img = str_replace('data:image/' . $ext . ';base64,', '', $img);
-        $img = str_replace(' ', '+', $img);
-        $data = base64_decode($img);
+        $source = str_replace('data:image/' . $extension . ';base64,', '', $source);
+        $source = str_replace(' ', '+', $source);
+        $img = base64_decode($source);
         $uuid = vsprintf('%s%s-%s-%s-%s-%s%s%s', str_split(bin2hex(random_bytes(16)), 4));
-        $file_name = $uuid . '.' . $ext;
-        file_put_contents('../images/' . $file_name, $data);
+        $file_name = $uuid . '.' . $extension;
+        file_put_contents('../images/' . $file_name, $img);
 
         $image = new Image();
         $image->setSource('../images/' . $file_name);
