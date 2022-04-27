@@ -12,7 +12,7 @@ use Symfony\Component\Routing\Annotation\Route;
 class ImageController extends AbstractController
 {
     #[Route('/image/add', name: 'addImage')]
-    public function getExtension(Request $request, ManagerRegistry $doctrine): Response
+    public function addImage(Request $request, ManagerRegistry $doctrine): Response
     {
         $entityManager = $doctrine->getManager();
 
