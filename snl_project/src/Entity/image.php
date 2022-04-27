@@ -28,7 +28,7 @@ class image
      * @ORM\Column(type="integer")
      * @Groups({"read"})
      */
-    private $id = null;
+    public $id = null;
 
     /**
      * @ORM\Column(type="integer")

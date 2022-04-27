@@ -28,22 +28,32 @@ class ImageController extends AbstractController
         $length = strpos($source, ';') - $offset;
         $extension = substr($source, $offset, $length);
 
-        //
+        // Odłączenie od danych zdjęcia początku z rozszerzeniem pliku
         $source = str_replace('data:image/' . $extension . ';base64,', '', $source);
         $source = str_replace(' ', '+', $source);
+
+        // Zamiana base64 na zdjęcie
         $img = base64_decode($source);
-        $uuid = vsprintf('%s%s-%s-%s-%s-%s%s%s', str_split(bin2hex(random_bytes(16)), 4));
+
+        // Wygenerowanie uuid dla nazwy zdjęcia
+        $uuid = vsprintf('%s%s-%s', str_split(bin2hex(random_bytes(16)), 6));
+
+        // Wygenerowanie nazwy zdjęcia i umieszczenie go w folderze na serwerze
         $file_name = $uuid . '.' . $extension;
         file_put_contents('../images/' . $file_name, $img);
 
+        // Utworzenie obiektu do umieszczenia danych w bazie
         $image = new Image();
         $image->setSource('../images/' . $file_name);
         $image->setGalleryId($gallery_id);
         $image->setDescription($description);
 
+        // Przygotowanie zapytań do bazy danych
         $entityManager->persist($image);
+        // Wykonanie kodu sql
         $entityManager->flush($image);
 
+        // Zwrócenie odpowiedzi
         return new Response('Pomyślnie zapisano plik: ' . $file_name);
     }
 }
