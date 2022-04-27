@@ -9,10 +9,10 @@ use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\JsonResponse;
 use Symfony\Component\Routing\Annotation\Route;
 
-class PageController extends AbstractController
+class ImagesPageController extends AbstractController
 {
     #[Route('/image/page', name: 'ImagesPage')]
-    public function getExtension(Request $request, ManagerRegistry $doctrine): JsonResponse
+    public function ImagesPage(Request $request, ManagerRegistry $doctrine): JsonResponse
     {
         $entityManager = $doctrine->getManager();
         $gallery_id =  $request->get('gallery_id');
